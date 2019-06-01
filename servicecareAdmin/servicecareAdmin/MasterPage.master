@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="font-size: large; font-weight: 700; text-align: center; background-color: #3399FF;">
+           <br />
+           <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CustomerPage.aspx">Customer Page</asp:HyperLink>   
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/section.aspx">Section page</asp:HyperLink> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/providerpage.aspx">Provider Page</asp:HyperLink>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/request.aspx">Request Page</asp:HyperLink> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/feedback.aspx">Feedback Page</asp:HyperLink> 
+
+               <br />
+           <br />
+               <br />
+            </div>
+
+            <br />
+           <br />
+               <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+          
+        
+        </asp:ContentPlaceHolder>
+
+    </form>
+    <p>
+        &nbsp;</p>
+</body>
+</html>

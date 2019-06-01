@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutusActivity"
+    android:background="@drawable/blue"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Some Word About Us"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineHeight="30dp"
+        android:lineSpacingExtra="5dp"
+        android:lines="5"
+        android:text=" Service Care is the most trusted app for all kinds of Home service care.. "
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineHeight="35dp"
+        android:lineSpacingExtra="5dp"
+        android:lines="5"
+        android:text=" whether You need babysitter, eldersitter,nurse,Home cleaning, special care."
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:lineHeight="35dp"
+        android:lineSpacingExtra="5dp"
+        android:lines="5"
+        android:text="Service care help you to find professional and expert guy for you."
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="25dp" />
+
+
+
+</LinearLayout>

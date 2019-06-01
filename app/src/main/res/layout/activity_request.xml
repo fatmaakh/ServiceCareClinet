@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Request">
+
+
+    <TextView
+        android:id="@+id/T_date"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="Select Date"
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="dd/mm/yy"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+
+
+    <TextView
+        android:id="@+id/T_time"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Select Time"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="hr/min"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+
+    <TextView
+        android:id="@+id/frequency"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Frequency"
+        android:textColor="#0A0A0A"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="154dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/Frequency"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+
+    <EditText
+        android:id="@+id/txtnoes"
+        android:layout_width="381dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ECE6E6"
+        android:ems="10"
+        android:hint="Notes"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/adress"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Location"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_marginBottom="5dp"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:background="#20978D"
+        android:text="BOOK"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+
+</LinearLayout>

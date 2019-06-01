@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginTop="50dp"
+    android:background="#E9F3FC"
+    tools:layout_editor_absoluteX="10dp"
+    tools:layout_editor_absoluteY="10dp">
+
+    <ImageView
+        android:id="@+id/imgwork"
+        android:layout_width="125dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="41dp"
+        android:layout_x="16dp"
+        android:layout_y="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/namework"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/care"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/namework"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="84dp"
+        android:layout_x="168dp"
+        android:layout_y="52dp"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pricework"
+        app:layout_constraintEnd_toStartOf="@+id/btnrequest"
+        app:layout_constraintStart_toEndOf="@+id/imgwork"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pricework"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="15dp"
+        android:layout_x="171dp"
+        android:layout_y="104dp"
+        android:text="$"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namework"
+        tools:ignore="MissingConstraints" />
+
+</AbsoluteLayout>

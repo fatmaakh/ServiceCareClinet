@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgsections"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtsectionname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/care" />
+
+    <TextView
+        android:id="@+id/txtsectionname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="20dp"
+        android:layout_x="16dp"
+        android:layout_y="139dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgsections" />
+</AbsoluteLayout>
